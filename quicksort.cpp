@@ -10,7 +10,7 @@ int partition(int values[], int beg, int end) {
 		while (values[smaller] < pivot) {
 			smaller++;
 		}
-		while (values[larger] > pivot) {
+		while (values[larger]> pivot) {
 			larger--;
 		}
 		if (smaller >= larger) {
